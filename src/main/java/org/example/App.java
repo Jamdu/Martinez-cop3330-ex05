@@ -13,6 +13,10 @@ public class App
         System.out.println("What is the second number? ");
         int y = scnr.nextInt();
 
+        if (x == 0 && y == 0) {
+            System.exit(0);
+        }
+
         int add = x + y;
         int sub = x - y;
         int multiply = x * y;
